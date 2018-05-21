@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- 引入bootstrap -->
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+
 	<!-- 引入JQuery  bootstrap.js-->
 	<script src="/js/jquery-3.2.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
@@ -113,6 +114,7 @@
 	</div>
 </div>
 </body>
+<script type="text/javascript" color="217,113,24" opacity="0.8" count="99" src="/js/canvas-nest.min.js"></script>
 <script type="text/javascript">
     $("#nav li:nth-child(1)").addClass("active")
 </script>

@@ -96,6 +96,8 @@
 		<div class="col-md-12"></div>
 	</div>
 	</div>
+
+	<script type="text/javascript" color="217,113,24" opacity="0.8" count="99" src="/js/canvas-nest.min.js"></script>
 </body>
 	<script type="text/javascript">
 		$("#nav li:nth-child(2)").addClass("active")

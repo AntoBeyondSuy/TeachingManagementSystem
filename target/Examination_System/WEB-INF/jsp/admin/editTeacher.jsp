@@ -13,6 +13,8 @@
 	<!-- 引入JQuery  bootstrap.js-->
 	<script src="/js/jquery-3.2.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" color="217,113,24" opacity="0.8" count="99" src="/js/canvas-nest.min.js"></script>
 </head>
 <body>
 	<!-- 顶栏 -->
@@ -114,6 +116,7 @@
 		<div class="col-md-12"></div>
 	</div>
 	</div>
+	<script type="text/javascript" color="217,113,24" opacity="0.8" count="99" src="/js/canvas-nest.min.js"></script>
 </body>
 	<script type="text/javascript">
 		$("#nav li:nth-child(3)").addClass("active");

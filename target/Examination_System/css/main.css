@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.body{
+	background-color: rgba(200,194,194,0.62);
+}
+.container-fluid{
+	
+	height:600px;
+}
+.header{
+	background-color:#4B4B4B;
+	height: 50px;
+	}
+.topic{
+
+	text-align: left;
+   padding-top: 5px;
+	color: white;
+	font-size: 30px;
+}
+.h2{
+	text-align: center;
+}
+.rigstbox{
+	
+	
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.picycle{
+	margin-top: 75px;
+	margin-left: 100px;
+}
+
+.regt{
+	text-align: center;
+}
+.rbox{
+	margin-top: 90px;
+    border:solid 1px #CB9505;
+	height: 390px;
+	width:400px;
+	background-color: rgba(249,244,244,0.5);
+}
+#demo{
+           overflow:hidden;
+           height:400px;
+           width:400px;
+           border:1px solid #6699cc;
+           font-size:14px;
+           color:#336699;
+           line-height:22px;
+           text-align:left;
+           padding:10px;
+       }
+.leave{
+	margin-top: 7px;
+}
+.mainbox{
+	margin-top: 30px;
+}
