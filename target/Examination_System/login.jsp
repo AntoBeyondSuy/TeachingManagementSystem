@@ -11,13 +11,9 @@
 	<!-- 引入JQuery  bootstrap.js-->
 	<script src="/js/jquery-3.2.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
-	<style type="text/css">
-
-
-	</style>
 </head>
-<body>
-
+<body style="background:url(images/g.jpg);background-repeat: no-repeat;
+background-size: cover; overflow:-Scroll;overflow-y:hidden;overflow-x:hidden;">
 <!--标题栏-->
 <div class="header">
 	<div class="container">
