@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="topic">
-                    教工管理系统
+                    <img src="/images/j.png" height="45" width="150"/>（学生）
                 </div>
             </div>
             <div class="col-md-1 col-md-offset-5">

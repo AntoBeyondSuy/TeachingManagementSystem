@@ -12,7 +12,7 @@
 	<script src="/js/jquery-3.2.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </head>
-<body style="background:url(images/g.jpg);background-repeat: no-repeat;
+<body style="background:url(images/d.jpg);background-repeat: no-repeat;
 background-size: cover; overflow:-Scroll;overflow-y:hidden;overflow-x:hidden;">
 <!--标题栏-->
 <div class="header">
@@ -20,7 +20,7 @@ background-size: cover; overflow:-Scroll;overflow-y:hidden;overflow-x:hidden;">
 		<div class="row">
 			<div class="col-md-6">
 				<div class="topic">
-					教工管理系统
+					<img src="/images/j.png" height="45" width="150"/>
 				</div>
 			</div>
 			<div class="col-md-1 col-md-offset-5">

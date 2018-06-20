@@ -2,7 +2,7 @@
 /* CSS Document */
 /*CSS */
 .body{
-	background-color: rgba(200,194,194,0.62);
+	background-color: rgba(200,194,194,0.8);
 }
 .container-fluid{
 	
@@ -13,11 +13,9 @@
 	height: 50px;
 	}
 .topic{
-
 	text-align: left;
-   padding-top: 5px;
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 }
 .h2{
 	text-align: center;
