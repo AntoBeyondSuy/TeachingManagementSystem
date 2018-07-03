@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<div class="menua">
 <div class="col-md-2">
     <ul class="nav nav-pills nav-stacked" id="nav">
         <li><a href="/admin/showCourse">课程管理<span class="glyphicon glyphicon-list-alt pull-right"></span></a></li>
@@ -10,4 +10,5 @@
         <li><a href="/logout">退出系统<sapn class="glyphicon glyphicon-log-out pull-right" /></a></li>
         <li class="disabled"><a href="##">Responsive</a></li>
     </ul>
+</div>
 </div>

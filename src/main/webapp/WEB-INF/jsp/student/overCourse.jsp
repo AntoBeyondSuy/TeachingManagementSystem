@@ -27,15 +27,16 @@
 		<div class="row">
 			<jsp:include page="menu.jsp"></jsp:include>
 			<div class="col-md-10">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
 				    <div class="panel-heading">
 						<div class="row">
 					    	<h1 class="col-md-5">已修课程</h1>
 						</div>
 				    </div>
-				    <table class="table table-bordered">
+					<div class="showbox">
+				    <table class="table table-striped">
 					        <thead>
-					            <tr>
+							<tr class="active">
 									<th>课程号</th>
 									<th>课程名称</th>
 									<th>授课老师编号</th>
@@ -66,6 +67,7 @@
 							</c:forEach>
 					        </tbody>
 				    </table>
+					</div>
 				    <div class="panel-footer">
 						<c:if test="${pagingVO != null}">
 							<nav style="text-align: center">

@@ -1,8 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 /*CSS */
+.menua{
+	background-color: #a6e1ec;
+}
 .body{
-	background-color: rgba(200,194,194,0.8);
+	background-image: url(images/x.jpg);
 }
 .container-fluid{
 	
@@ -57,4 +60,25 @@
 }
 .mainbox{
 	margin-top: 30px;
+}
+.showbox{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.col-md-2{
+	border-radius:15px;
+	background-color: rgba(163,159,159,0.47);
+}
+.panel{
+	border-radius:30px;
+}
+.panel-heading{
+	border-radius:30px;
+}
+.editbox{
+	margin-left: 100px;
+	margin-right: 200px;
+}
+.panel-footer{
+	border-radius:30px;
 }

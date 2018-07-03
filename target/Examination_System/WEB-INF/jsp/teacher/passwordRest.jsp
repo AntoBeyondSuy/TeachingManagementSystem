@@ -21,13 +21,14 @@
 		<div class="row">
 			<jsp:include page="menu.jsp"></jsp:include>
 			<div class="col-md-10">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
 				    <div class="panel-heading">
 						<div class="row">
 					    	<h1 style="text-align: center;">修改密码</h1>
 						</div>
 				    </div>
 				    <div class="panel-body">
+						<div class="editbox">
 						<form name="reset" class="form-horizontal" role="form" action="/passwordRest" id="editfrom" method="post" onsubmit="return check()">
 							  <div class="form-group">
 							    <label for="inputEmail3" class="col-sm-2 control-label">旧密码</label>
@@ -53,7 +54,7 @@
 							  </div>
 						</form>
 				    </div>
-				    
+					</div>
 				</div>
 
 			</div>

@@ -20,6 +20,7 @@
 
 </head>
 <body>
+
 	<!-- 顶栏 -->
 	<jsp:include page="top.jsp"></jsp:include>
 	<!-- 中间主体 -->
@@ -28,7 +29,7 @@
 		<div class="row">
 			<jsp:include page="menu.jsp"></jsp:include>
 			<div class="col-md-10">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
 				    <div class="panel-heading">
 						<div class="row">
 					    	<h1 class="col-md-5">课程名单管理</h1>
@@ -45,9 +46,10 @@
 
 						</div>
 				    </div>
-				    <table class="table table-bordered">
+					<div class="showbox">
+				    <table class="table table-striped">
 					        <thead>
-					            <tr>
+					            <tr class="active">
 									<th>课程号</th>
 									<th>课程名称</th>
 									<th>授课老师编号</th>
@@ -63,13 +65,13 @@
 							<c:forEach  items="${courseList}" var="item">
 								<tr>
 									<td>${item.courseid}</td>
-									<td>${item.coursename}</td>
+									<td >${item.coursename}</td>
 									<td>${item.teacherid}</td>
-									<td>${item.coursetime}</td>
+									<td >${item.coursetime}</td>
 									<td>${item.classroom}</td>
-									<td>${item.courseweek}</td>
+									<td >${item.courseweek}</td>
 									<td>${item.coursetype}</td>
-									<td>${item.score}</td>
+									<td >${item.score}</td>
 									<td>
 										<button class="btn btn-default btn-xs btn-info" onClick="location.href='/admin/editCourse?id=${item.courseid}'">修改</button>
 										<button class="btn btn-default btn-xs btn-danger btn-primary" onClick="location.href='/admin/removeCourse?id=${item.courseid}'">删除</button>
@@ -79,6 +81,7 @@
 							</c:forEach>
 					        </tbody>
 				    </table>
+					</div>
 				    <div class="panel-footer">
 						<c:if test="${pagingVO != null}">
 							<nav style="text-align: center">

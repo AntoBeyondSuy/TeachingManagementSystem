@@ -55,24 +55,35 @@ public class TeacherController {
 
 
 
-    @RequestMapping(value = "/mark", method = {RequestMethod.GET})
-    public String markUI(SelectedCourseCustom scc, Model model) throws Exception {
+   @RequestMapping(value = "/mark", method = {RequestMethod.GET})
+  public String markUI(SelectedCourseCustom scc, Model model) throws Exception {
 
-        SelectedCourseCustom selectedCourseCustom = selectedCourseService.findOne(scc);
+    SelectedCourseCustom selectedCourseCustom = selectedCourseService.findOne(scc);
 
-        model.addAttribute("selectedCourse", selectedCourseCustom);
+   model.addAttribute("selectedCourse", selectedCourseCustom);
 
-        return "teacher/mark";
-    }
+      return "teacher/mark";
+   }
 
     // 打分
-    @RequestMapping(value = "/mark", method = {RequestMethod.POST})
-    public String mark(Integer id, SelectedCourseCustom scc) throws Exception {
-        List<SelectedCourseCustom> list = selectedCourseService.findByCourseID(id);
-        selectedCourseService.updataOne(scc);
+   @RequestMapping(value = "/mark", method = {RequestMethod.POST})
+   public String mark(Integer id, SelectedCourseCustom scc) throws Exception {
+       List<SelectedCourseCustom> list = selectedCourseService.findByCourseID(id);
+       selectedCourseService.updataOne(scc);
 
-        return "redirect:/teacher/gradeCourse?id="+scc.getCourseid();
-    }
+       return "redirect:/teacher/gradeCourse?id=" + scc.getCourseid();
+   }
+
+    //打分
+//   @RequestMapping(value = "/mark")
+  //public String mark(Integer id, SelectedCourseCustom scc,Model model) throws Exception {
+    //SelectedCourseCustom selectedCourseCustom = selectedCourseService.findOne(scc);
+  //model.addAttribute("selectedCourse", selectedCourseCustom);
+   //List<SelectedCourseCustom> list = selectedCourseService.findByCourseID(id);
+   //selectedCourseService.updataOne(scc);
+      // return "redirect:/teacher/showGrade";
+     // return "redirect:/teacher/gradeCourse?id="+scc.getCourseid();
+   // }
 
     //查找课程
     @RequestMapping(value = "selectCourse", method = {RequestMethod.POST})
@@ -81,7 +92,7 @@ public class TeacherController {
         List<CourseCustom> list = courseService.findByName(findByName);
 
         model.addAttribute("courseList", list);
-        return "teacher/selectCourse";
+        return "teacher/showCourse";
     }
     //修改密码
     @RequestMapping(value = "/passwordRest")

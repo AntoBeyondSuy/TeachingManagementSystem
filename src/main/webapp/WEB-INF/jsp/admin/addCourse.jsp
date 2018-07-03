@@ -23,13 +23,14 @@
 	<div class="row">
 		<jsp:include page="menu.jsp"></jsp:include>
 		<div class="col-md-10">
-			<div class="panel panel-default">
+			<div class="panel panel-info">
 				<div class="panel-heading">
 					<div class="row">
 						<h1 style="text-align: center;">添加课程信息</h1>
 					</div>
 				</div>
 				<div class="panel-body">
+					<div class="editbox">
 					<form class="form-horizontal" role="form" action="/admin/addCourse" id="editfrom" method="post">
 						<div class="form-group">
 							<label for="inputEmail3" class="col-sm-2 control-label">课程号</label>
@@ -102,6 +103,7 @@
 							<button class="btn btn-danger" type="reset">重置</button>
 						</div>
 					</form>
+					</div>
 				</div>
 
 			</div>
@@ -119,5 +121,6 @@
 <script type="text/javascript" color="217,113,24" opacity="0.8" count="99" src="/js/canvas-nest.min.js"></script>
 <script type="text/javascript">
     $("#nav li:nth-child(1)").addClass("active")
+
 </script>
 </html>

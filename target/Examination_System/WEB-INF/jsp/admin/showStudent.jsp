@@ -20,6 +20,7 @@
 
 </head>
 <body>
+
 	<!-- 顶栏 -->
 	<jsp:include page="top.jsp"></jsp:include>
 	<!-- 中间主体 -->
@@ -28,7 +29,7 @@
 		<div class="row">
 			<jsp:include page="menu.jsp"></jsp:include>
 			<div class="col-md-10">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
 				    <div class="panel-heading">
 						<div class="row">
 					    	<h1 class="col-md-5">学生名单管理</h1>
@@ -45,9 +46,10 @@
 
 						</div>
 				    </div>
-				    <table class="table table-bordered">
+					<div class="showbox">
+				    <table class="table table-striped">
 					        <thead>
-					            <tr>
+							<tr class="active">
 					                <th>学号</th>
 				  					<th>姓名</th>
 				  					<th>性别</th>
@@ -75,6 +77,7 @@
 							</c:forEach>
 					        </tbody>
 				    </table>
+					</div>
 				    <div class="panel-footer">
 						<c:if test="${pagingVO != null}">
 							<nav style="text-align: center">
