@@ -14,7 +14,6 @@ import javax.annotation.Resource;
 import java.util.List;
 
 
-
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
@@ -145,7 +144,7 @@ public class AdminController {
         return "admin/showStudent";
     }
 
-    /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<教师操作>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    /*<<<<<<<<<<<<<<<<<<<<<教师操作>>>>>>>>>>>>>>>>>>>>>>>>*/
 
     // 教师页面显示
     @RequestMapping("/showTeacher")
@@ -255,7 +254,7 @@ public class AdminController {
         return "admin/showTeacher";
     }
 
-    /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<课程操作>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    /*<<<<<<<<<<<<<<<<<<<<<<<<课程操作>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
     // 课程信息显示
     @RequestMapping("/showCourse")
