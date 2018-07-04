@@ -6,44 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c68f8d-bbb3-44d9-adb2-894f46b4ed33" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/x.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/y.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/system/controller/TeacherController.java" afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/TeacherController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addCourse.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addStudent.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addTeacher.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addTeacher.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editCourse.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editStudent.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editTeacher.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editTeacher.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/menu.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/menu.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/passwordRest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/passwordRest.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showCourse.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showStudent.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showTeacher.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/showTeacher.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/userPasswordRest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/userPasswordRest.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/overCourse.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/overCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/passwordRest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/passwordRest.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/selectCourse.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/selectCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/showCourse.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student/showCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/mark.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/mark.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/passwordRest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/passwordRest.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/showCourse.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/showCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/showGrade.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/showGrade.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/teacher/try.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/WEB-INF/classes/com/system/controller/TeacherController.class" afterPath="$PROJECT_DIR$/target/Examination_System/WEB-INF/classes/com/system/controller/TeacherController.class" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/addCourse.jsp" afterPath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/addCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/menu.jsp" afterPath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/menu.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/showCourse.jsp" afterPath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/showCourse.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/showStudent.jsp" afterPath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/admin/showStudent.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/teacher/mark.jsp" afterPath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/teacher/mark.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/teacher/showGrade.jsp" afterPath="$PROJECT_DIR$/target/Examination_System/WEB-INF/jsp/teacher/showGrade.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Examination_System/css/main.css" afterPath="$PROJECT_DIR$/target/Examination_System/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/system/controller/TeacherController.class" afterPath="$PROJECT_DIR$/target/classes/com/system/controller/TeacherController.class" />
-    </list>
+    <list default="true" id="74c68f8d-bbb3-44d9-adb2-894f46b4ed33" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -267,7 +230,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1225" />
@@ -678,7 +641,7 @@
       <workItem from="1530335034942" duration="7371000" />
       <workItem from="1530437351493" duration="4907000" />
       <workItem from="1530535144183" duration="2728000" />
-      <workItem from="1530596309780" duration="10689000" />
+      <workItem from="1530596309780" duration="10695000" />
     </task>
     <servers />
   </component>
@@ -691,11 +654,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106191000" />
+    <option name="totallyTimeSpent" value="106197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44204545" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
@@ -714,7 +676,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119526625" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.119526625" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
